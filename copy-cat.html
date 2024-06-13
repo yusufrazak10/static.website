@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TWITTER WEB PAGE</title>
+    <link rel="stylesheet" href="styling.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Assign classes so the page can be split in two halves, this being left half -->
+    <div class="container">
+      <div class="left-half">
+        <div class="div1">
+          <!-- Image of X logo -->
+          <img src="Image.jpeg" alt="Twitter logo" />
+        </div>
+      </div>
+      <!-- Assign the rest of the page to the right half -->
+      <div class="right-half">
+        <!-- First heading -->
+        <h1>Happening now</h1>
+        <!-- Second heading -->
+        <h2>Join today.</h2>
+        <!-- Option to sign up with as well as an image of Google -->
+        <div class="div2">
+          <img src="Image 1.jpeg" alt="Google logo" />
+          <!-- Button to redirect to the form page -->
+          <button onclick="redirectToGoogleSignUp()" class="b1">
+            Sign up with Google
+          </button>
+          <script>
+            function redirectToGoogleSignUp() {
+              // Redirect to the form page
+              window.location.href =
+                "https://accounts.google.com/gsi/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=Oxz%2BcoQFFO8QHN0VmwWV%2BQ&channel_id=d244c0d9d6a79f7395d359d873978d3be255ad3fc5fb7cf91ff2c9b7fdf7f875&origin=https%3A%2F%2Ftwitter.com";
+            }
+          </script>
+        </div>
+        <!-- Option to sign up with as well as an image of Apple -->
+        <div class="div3">
+          <img src="Image 2.jpeg" alt="Apple logo" />
+          <!-- Button to redirect to the form page -->
+          <button onclick="redirectToAppleSignUp()" class="b2">
+            Sign up with Apple
+          </button>
+          <script>
+            function redirectToAppleSignUp() {
+              // Redirect to the form page
+              window.location.href =
+                "https://appleid.apple.com/auth/authorize?client_id=com.twitter.twitter.siwa&redirect_uri=https%3A%2F%2Ftwitter.com&response_type=code%20id_token&state=Jr3cfCF5eobXfVmq6c952ybdQehID6kwgfnNabX7qPe&scope=name%20email&response_mode=web_message&frame_id=6d5f39eb-ad60-44c0-b0d2-da6a0992a014&m=11&v=1.5.5";
+            }
+          </script>
+        </div>
+        <!-- Or tells you about other options -->
+        <p class="p1">
+          -------------------------------or------------------------------
+        </p>
+        <!-- Option to create an X account -->
+        <div class="div4">
+          <!-- Button to redirect to the form page -->
+          <button onclick="redirectToCreateAccount()" class="b3">
+            Create account
+          </button>
+          <script>
+            function redirectToCreateAccount() {
+              // Redirect to the form page
+              window.location.href = "https://twitter.com/i/flow/signup";
+            }
+          </script>
+        </div>
+        <!-- Terms and conditions of creating an account -->
+        <p class="p2">
+          By signing you agree to the
+          <a href="https://twitter.com/tos">Terms of Service </a> and
+          <a href="https://twitter.com/privacy"> Privacy <br />Policy </a> ,
+          including
+          <a href="https://help.twitter.com/rules-and-policies/twitter-cookies">
+            Cookie Use.
+          </a>
+        </p>
+        <p class="p3">Already have an account?</p>
+        <!-- Option to sign in if you already have an X account -->
+        <div class="div5">
+          <!-- Button to redirect to the form page -->
+          <button onclick="redirectToSignIn()" class="b4">Sign in</button>
+          <script>
+            function redirectToSignIn() {
+              // Redirect to the form page
+              window.location.href = "https://twitter.com/login";
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+    <!-- Keywords with their links which provide information to the user -->
+    <p class="p4">
+      <a href="https://about.twitter.com/"> About </a>
+      <a href="https://help.twitter.com/using-x/download-the-x-app">
+        Download the X app
+      </a>
+      <a href="https://help.twitter.com/"> Help Center </a>
+      <a href="https://twitter.com/tos"> Terms of Service </a>
+      <a href="https://twitter.com/privacy"> Privacy Policy </a>
+      <a href="https://support.twitter.com/articles/20170514">
+        Cookie Policy
+      </a>
+      <a href="https://help.twitter.com/resources/accessibility">
+        Accessibility
+      </a>
+      <a
+        href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+      >
+        Ads info
+      </a>
+      <a href="https://blog.twitter.com/"> Blog </a>
+      <a href="https://careers.twitter.com/"> Careers </a>
+      <a href="https://about.twitter.com/press/brand-assets">
+        Brand Resources
+      </a>
+      <a href="https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise">
+        Advertising
+      </a>
+      <a href="https://marketing.twitter.com/"> Marketing </a>
+      <a
+        href="https://business.twitter.com/?ref=web-twc-ao-gbl-twitterforbusiness&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=twitterforbusiness"
+      >
+        X for Business
+      </a>
+      <a href="https://developer.twitter.com/"> Developers </a>
+      <a href="https://twitter.com/i/directory/profiles"> Directory </a>
+      <a href="https://twitter.com/settings"> Settings </a>
+      <a> © 2024 X Corp. </a>
+    </p>
+  </body>
+</html>
+<!-- Link of the URL of the X webpage which I recreated -->
+<a href="https://twitter.com/?lang=en"> URL of X Web Page</a>
+
+
+

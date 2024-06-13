@@ -1,0 +1,146 @@
+/* Store variable $left-half-width */
+$left-half-width: 50%; 
+
+/* Style the initial X picture */
+.div1 {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+  }
+}
+
+/* Split the page in two halves */
+.container {
+  display: flex;
+  height: 100vh; 
+} 
+
+.left-half {
+  width: $left-half-width;
+}
+
+.right-half {
+  width: calc(100% - #{$left-half-width});
+  padding: 20px;
+}
+
+/* Style the Google picture as well as the writing that appears next to it */
+.div2 {
+    border-style: solid;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    padding: 7px;
+    width: 350px;
+    text-align: center;
+    img {
+        height: 15px;
+        width: 15px;
+    }
+    .b1 {
+        font-size: 15px;
+
+    }
+}
+
+/* Style the Apple picture as well as the writing that appears next to it */
+.div3 {
+    border-style: solid;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    padding: 7px;
+    width: 350px;
+    text-align: center;
+    img {
+        height: 15px;
+        width: 15px;
+    }
+    .b2 {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+}
+
+/* Style the writing underneath the sign ups */
+.p1 {
+    font-size: 17px;
+}
+
+/* Style the Create Account button */
+.div4 {
+    border-style: solid;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    padding: 7px;
+    width: 350px;
+    text-align: center;
+    background-color:  rgb(12, 180, 209);
+    .b3 {
+    font-size: 17px;
+    background-color: rgb(12, 180, 209) ;
+    color: white;
+    }
+}
+
+/* Style the writing underneath the Create Account button */
+.p2 {
+    font-size: 12px;
+}
+
+/* Style the writing for someone who has an account */
+.p3 {
+    font-size: 20px;
+    font-family: Helvetica ;
+    font-weight: bold;
+}
+
+/* Style the writing for the keywords which contain links */
+.p4 {
+    text-align: center; 
+    color: black; 
+}
+
+/* Style the writing for the Sign in button */
+.div5 {
+    border-style: solid;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    padding: 7px;
+    width: 350px;
+    text-align: center;
+    .b4 {
+        font-size: 17px;
+        color: blue;
+    }
+}
+
+/* Style the writing for the first heading */
+h1 {
+    font-family: Helvetica ;
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+/* Style the writing for the second heading */
+h2 {
+    font-family: Helvetica ;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
